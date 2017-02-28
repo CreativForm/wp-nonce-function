@@ -1,24 +1,21 @@
 {
-	"name": "creativform/wp-nonce-function",
+	"name": "CreativForm/wp-nonce-function",
 	"description": "Object oriented functionality for WP Nonce",
 	"license": "GPLv2 (or later)",
 	"type": "package",
+	"homepage": "https://github.com/CreativForm/wp-nonce-function",
 	"package": {
-		"name": "creativform/wp-nonce-function",
+		"name": "CreativForm/wp-nonce-function",
 		"version": "1.0.0",
 		"source": {
-			"url": "git://github.com/creativform/wp-nonce-function.git",
+			"url": "git://github.com/CreativForm/wp-nonce-function.git",
 			"type": "git",
 			"reference": "master"
 		}
 	},
-	"config": {
-        "platform": {
-            "php": "5.6.4"
-        }
-    },
 	"require": {
-		"creativform/wp-nonce-function": "^1.0.0"
+		"CreativForm/wp-nonce-function": "^1.0.0"
+		"php": ">=5.6.4"
 	},
 	"autoload": {
 		"classmap": [
