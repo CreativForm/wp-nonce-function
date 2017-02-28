@@ -14,7 +14,7 @@
 		}
 	},
 	"require": {
-		"CreativForm/wp-nonce-function": "^1.0.0"
+		"CreativForm/wp-nonce-function": "^1.0.0",
 		"php": ">=5.6.4"
 	},
 	"autoload": {
