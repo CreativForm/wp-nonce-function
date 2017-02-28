@@ -3,7 +3,7 @@
 	"license": "GPLv2 (or later)",
 	"type": "package",
 	"package": {
-		"name": "Creativform/wp-nonce-function",
+		"name": "creativform/wp-nonce-function",
 		"version": "1.0.0",
 		"source": {
 			"url": "git://github.com/creativform/wp-nonce-function.git",
