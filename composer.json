@@ -1,4 +1,5 @@
 {
+	"name": "creativform/wp-nonce-function",
 	"description": "Object oriented functionality for WP Nonce",
 	"license": "GPLv2 (or later)",
 	"type": "package",
