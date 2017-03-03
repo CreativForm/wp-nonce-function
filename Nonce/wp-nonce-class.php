@@ -4,7 +4,7 @@
 * @version     1.0
 * @author      Ivijan-Stefan Stipic <creativform@gmail.com>
 */
-
+namespace Nonce;
 class WP_Nonce
 {
 	private $setup = [
@@ -118,7 +118,7 @@ class WP_Nonce
 	* @option      name            (string) (optional) Nonce name. This is the name of the nonce hidden form field to be created.
 	* @return      string          The nonce hidden form field, optionally followed by the referer hidden form field if the $referer argument is set to true.
 	*/
-	public function field($referer=true, $echo=true, $action='', $name=''){
+	public function field($action='', $name='', $referer=true, $echo=true){
 		if(isset($this->setup['nonce_action']) && !empty($this->setup['nonce_action']) && empty($action))
 			$action=$this->setup['nonce_action'];
 		
