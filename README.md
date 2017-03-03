@@ -103,3 +103,10 @@ Verifying a nonce passed in some other context:
 $nonce->admin_referer( $_REQUEST['my_nonce'] );
 ```
 
+destructing and finish
+
+When you finish, just close this session and destruct all setups
+```php
+$nonce->clean();
+```
+

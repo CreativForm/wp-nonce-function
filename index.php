@@ -1,5 +1,11 @@
 <?php
 
-require "vendor/autoload.php";
+// Autoload files using Composer autoload
+require_once 'vendor/autoload.php';
 
-var_dump(class_exists("WP_Nonce"));
+// use class
+use Nonce\WP_Nonce;
+
+
+// Instantiate the class
+$nonce = new WP_Nonce();

@@ -5,6 +5,7 @@
 * @author      Ivijan-Stefan Stipic <creativform@gmail.com>
 */
 namespace Nonce;
+
 class WP_Nonce
 {
 	private $setup = [
