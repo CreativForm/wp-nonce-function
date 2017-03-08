@@ -97,13 +97,13 @@ Verifying a nonce passed in an AJAX request:
 $nonce->ajax_verify( 'post-comment' );
 ```
 
-Verifying a nonce passed in some other context:
+Verifying a nonce passed in admin area:
 
 ```php
 $nonce->admin_verify( $_REQUEST['my_nonce'] );
 ```
 
-destructing and finish
+Destructing and finish
 
 When you finish, just close this session and destruct all setups
 ```php
