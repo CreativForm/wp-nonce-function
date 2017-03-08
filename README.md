@@ -100,7 +100,7 @@ $nonce->ajax_verify( 'post-comment' );
 Verifying a nonce passed in some other context:
 
 ```php
-$nonce->admin_referer( $_REQUEST['my_nonce'] );
+$nonce->admin_verify( $_REQUEST['my_nonce'] );
 ```
 
 destructing and finish
